@@ -101,7 +101,7 @@ justify-content: ;
     height: 75%;
 }
 
-@media screen and (max-width: 576px) {
+@media all and (max-width: 576px) {
     
     .row {
         display: grid;
@@ -122,8 +122,8 @@ justify-content: ;
     }
 }
 
-@media screen and (max-width: 767px) {
-    .row {
+@media all and (max-width: 767px) {
+    .content-container {
         display: grid;
         grid-template-columns: 1fr;
     }
@@ -142,7 +142,7 @@ justify-content: ;
     }
 }
 
-@media screen and (max-width: 991px) {
+@media all and (max-width: 991px) {
     .row {
         display: grid;
         grid-template-columns: 1fr 2fr;
