@@ -176,6 +176,7 @@ text-align: left;
 
      #desc {
        text-align: center;
+       margin-bottom: 50px !important;
     }
 
     .flex {
@@ -220,6 +221,12 @@ h2 {
 }
  .serv-h2 {
     margin-top:-50px ;
+ }
+
+ @media (max-width: 767px) {
+    .serv-h2 {
+        margin-top: 150px !important;
+    }
  }
 .picture {
     border-radius: 150px;
