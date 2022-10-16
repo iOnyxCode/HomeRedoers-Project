@@ -93,37 +93,100 @@
     </div>
 
     <!--Mission statment-->
+    <div class="container-fluid bg-fam">
+        <div class="container content-container mt-5">
+            <div class="row">
 
-    <div class="container content-container mt-5">
-        <div class="row">
-            
-            <div class="col-lg-4 col-sm-12 man-img"><img src="./assets/man.jpg" class="img-fluid grid-img" alt="man"></div>
-            
-            <div class="col-lg-8 col-sm-12 mission">
-                <h1 class="text-left mt-5 mb-5 ">Our Mission</h1>
-                <p class="desc text-left mt-4" id="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Adipisci debitis commodi id ducimus enim veniam temporibus perferendis repudiandae! Tempora,
-                    laborum.</p>
+                <div class="col-lg-4 col-sm-12 man-img"><img src="./assets/man.jpg" class="img-fluid grid-img"
+                        alt="man"></div>
+
+                <div class="col-lg-8 col-sm-12 mission">
+                    <h1 class="text-left mt-5 mb-5 ">Our Mission</h1>
+                    <p class="desc text-left mt-4" id="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Adipisci debitis commodi id ducimus enim veniam temporibus perferendis repudiandae! Tempora,
+                        laborum.</p>
+                </div>
+
             </div>
-        
+        </div>
+    </div>
+    <!--services-->
+
+    <div class="container service-container">
+
+        <h2 class="serv-h2">Services</h2>
+        <div class="container flex">
+            <div class="row serv-row" id="serv-row-1">
+                <div class="col-lg-4 col-md-12 serv-pic">
+                    <img src="./assets/home-caro-4.jpg" class="img-fluid picture mt-5" alt="image of a house">
+                    <h3 class="serv-type text-center mt-5">Full Home Remodel</h3>
+                    <p class="text-center mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut temporibus dolore beatae consequuntur obcaecati fugiat, vitae blanditiis officiis, dolorum nulla velit iusto facilis incidunt similique.</p>
+                </div>
+
+                <div class="col-lg-4 col-md-12 col serv-pic">
+                    <img src="./assets/pexels-mark-mccammon-1080721.jpg" class="img-fluid picture mt-5"
+                        alt="Image of a kitchen">
+                    <h3 class="serv-type text-center mt-5">Kitchen Remodel</h3>
+                    <p class="text-center mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut temporibus dolore beatae consequuntur obcaecati fugiat, vitae blanditiis officiis, dolorum nulla velit iusto facilis incidunt similique.</p>
+                </div>
+
+                <div class="col-lg-4 col-md-12 serv-pic">
+                    <img src="./assets/joe-ciciarelli-08AJKJf75kw-unsplash.jpg" class="img-fluid picture mt-5"
+                        alt="image of a pool">
+                    <h3 class="serv-type text-center mt-5">Pool Remodel</h3>
+                    <p class="text-center mt-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut temporibus dolore beatae consequuntur obcaecati fugiat, vitae blanditiis officiis, dolorum nulla velit iusto facilis incidunt similique.</p>
+                </div>
+            </div>
         </div>
     </div>
 
-<!--services-->
+    <!--contact form-->
 
-<div class="container service-container">
-    <div class="row">
-        <div class="col-lg-4">
-            <img src="..." class="rounded float-start" alt="...">
-        </div>
-        <div class="col-lg-4">
-            <img src="..." class="rounded float-start" alt="...">
-        </div>
-        <div class="col-lg-4">
-            <img src="..." class="rounded float-start" alt="...">
-        </div>
+    <div class="container mt-5 contact-form">
+<h2 id="contact-us">Contact Us</h2>
+<form class="row g-3" action="">
+    <div class="col-md-6">
+        <label for="firstname" class="form-label">First Name</label>
+        <input type="text" class="form-control" name="firstname" id="firstname" required>
     </div>
-</div>
+
+    <div class="col-md-6">
+        <label for="lastname" class="form-label">last Name</label>
+        <input type="text" class="form-control" name="lastname" id="lastname" required>
+    </div>
+
+    <div class="col-md-8">
+        <label for="emailinfo" class="form-label">E-Mail</label>
+        <input type="email" class="form-control" name="email" id="enailinfo" required>
+    </div>
+
+    <div class="col-md-4">
+        <label for="phonenumber" class="form-label">Phone Number</label>
+        <input type="tel" class="form-control" name="tel" id="tel" placeholder="+1 (555) 444-4321">
+    </div>
+
+    <div class="col-md-12">
+        <label for="comments" class="form-label">Comments</label>
+        <textarea name="comments"  class="form-control" id="comments" rows="3"></textarea>
+    </div>
+    <div class="col-md-12">
+        <button type="submit" class="btn btn-warning mb-5">Submit</button>
+    </div>
+</form>
+    </div>
+
+    <!--Footer-->
+
+
+
+
+
+
+
+
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
